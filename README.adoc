@@ -10,4 +10,4 @@
 
 === Lock & Unlock Sequence Diagram
 
-plantuml::../document/plantuml/sequence/cache_seq.puml[]
+plantuml::example/sample-usecase.puml[]
