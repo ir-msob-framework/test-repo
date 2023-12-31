@@ -10,5 +10,26 @@
 
 === Lock & Unlock Sequence Diagram
 
+
+[plantuml, sequence_diagram_svg]
+----
+@startuml
+
+participant "A Service"
+participant "In Memory DB"
+
+
+"A Service" -> "In Memory DB": Put
+"A Service" -> "In Memory DB": Get
+"A Service" <-- "In Memory DB": Res
+
+"A Service" -> "In Memory DB": Remove
+
+@enduml
+----
+
+
+
+
 [plantuml, format="svg", options="interactive"]
 plantuml::example/sample-usecase.puml[]
