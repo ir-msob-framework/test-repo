@@ -10,4 +10,5 @@
 
 === Lock & Unlock Sequence Diagram
 
+[plantuml, format="svg", options="interactive"]
 plantuml::example/sample-usecase.puml[]
