@@ -10,6 +10,10 @@
 
 === Lock & Unlock Sequence Diagram
 
+image::http://www.plantuml.com/plantuml/svg/SoWkIImgAStDuNBAJrBGjLDmpCbCJbMmKiX8pSd9vt98pKi1IW80[]
+
+
+
 
 [plantuml, sequence_diagram_svg]
 ----
